@@ -1,0 +1,47 @@
+# Africa Demographics Platform - Streamlit MVP Requirements
+# Updated for World Bank API Integration
+
+# Core Streamlit and Web Framework
+streamlit>=1.28.0
+streamlit-option-menu>=0.3.6
+
+# Data Processing and Analysis
+pandas>=2.1.0
+numpy>=1.24.0
+scipy>=1.11.0
+
+# HTTP Requests and API Integration (Updated for World Bank API)
+requests>=2.31.0
+httpx>=0.25.0
+urllib3>=2.0.0
+
+# Visualization Libraries
+plotly>=5.17.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Machine Learning and Statistics
+scikit-learn>=1.3.0
+statsmodels>=0.14.0
+
+# Date and Time Processing
+python-dateutil>=2.8.2
+
+# Additional Utilities
+typing-extensions>=4.8.0
+
+# JSON and Data Validation
+jsonschema>=4.19.0
+
+# Optional: For advanced features (uncomment if needed)
+# folium>=0.15.0                    # For advanced mapping
+# geopandas>=0.14.0                 # For geospatial analysis
+# openpyxl>=3.1.0                   # For Excel export functionality
+# xlsxwriter>=3.1.0                 # For Excel styling
+
+# Development and Testing (optional)
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
+
+# Note: All dependencies are compatible with World Bank Open Data API
+# No API keys or authentication required
